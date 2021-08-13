@@ -4,7 +4,8 @@
     "require": {
         "catfan/medoo": "^2.1",
         "mnapoli/silly": "^1.7",
-        "vlucas/phpdotenv": "^5.3"
+        "vlucas/phpdotenv": "^5.3",
+        "fakerphp/faker": "^1.15"
     },
     "autoload": {
         "psr-4": {
