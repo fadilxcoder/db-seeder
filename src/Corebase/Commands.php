@@ -3,8 +3,7 @@
 namespace App\Corebase;
 
 use App\Command\Doctors;
-use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Output\OutputInterface;
+use App\Command\ApiPlatformSymfony;
 
 class Commands
 {
@@ -17,6 +16,7 @@ class Commands
         #############################
 
         $app->command('seed:patients', [Doctors::class, 'populatePatients']);
+        $app->command('seed:cheese-listing', [ApiPlatformSymfony::class, 'populateCheese']);
 
         #################################
         ### EOF List of commands here ###
