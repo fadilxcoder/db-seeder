@@ -17,6 +17,7 @@ class Commands
 
         $app->command('seed:patients', [Doctors::class, 'populatePatients']);
         $app->command('seed:cheese-listing', [ApiPlatformSymfony::class, 'populateCheese']);
+        $app->command('seed:users', [ApiPlatformSymfony::class, 'populateUser']);
 
         #################################
         ### EOF List of commands here ###

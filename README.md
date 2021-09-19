@@ -3,8 +3,14 @@
 - Command Line Interface (CLI) for seeding DB
 - Create `commands` in `src/Corebase/Commands.php`
 - Create class for DB population in `src/Command/...`
+
+
 - Available Commands:
 - - `php bin/console seed:patients` for [mysql, kb_doctor]
+- - `php bin/console seed:user` for [mysql, api_platform_symfony]
+- - `php bin/console seed:cheese-listing`
+
+
 - Packages :
 - - https://packagist.org/packages/catfan/medoo (DB Handler) 
 - - https://medoo.in/doc (Medoo Documentation)
