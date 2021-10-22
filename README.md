@@ -9,6 +9,7 @@
 - - `php bin/console seed:patients` for [mysql, kb_doctor]
 - - `php bin/console seed:user` for [mysql, api_platform_symfony]
 - - `php bin/console seed:cheese-listing`
+- - `php bin/console seed:drivers`
 
 
 - Packages :
